@@ -1,0 +1,11 @@
+2023/11/24 00:00|Домашнее задание по теме "Try и Except".
+
+a = 1
+b = 'яблоко'
+try:
+    def add_everything_up(a, b):
+        return a + b
+    print(add_everything_up(a, b))
+
+except TypeError:
+        print(str(a) + str(b))
